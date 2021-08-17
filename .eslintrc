@@ -2,5 +2,11 @@
   "extends": [
     "@antfu",
     "vue-global-api"
-  ]
+  ],
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "plugins": ["prettier"]
 }
